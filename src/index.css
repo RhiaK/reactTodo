@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Brush Script MT", cursive;
+}
+
+header, .todos {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.todosContainer {
+  width: 60%;
+  margin: auto;
+}
+
+h1 {
+	font-size: 35px;
+	margin: 50px;
+}
+
+h2 {
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  font-size: 28px;
+}
+
+.incomplete h2{
+  border-bottom: 3px solid red;
+}
+
+h1, h2{
+  font-family: "Brush Script MT", cursive;
+}
+
+p {
+  font-family: "Brush Script MT", cursive;
+  font-size: 5em;
+}
+
+.todoForm {
+  clear:both;
+  text-align: center;
+}
+
+span.deleteButton, span.toggleButton {
+  padding-left: 1em;
+}
+
+.deleteButton{
+  color: red;
+}
+
+.createForm {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin: auto;
+  width: 58%;
+}
